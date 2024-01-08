@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+.background {
+	background-size: cover;
+	width: 10px;
+}
+.logo {
+				position: relative;
+						top: 10px;
+						left: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home {
+		position: absolute;
+		top: 35px;
+		left: 1000px;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #fdfdfd;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about {
+	position: absolute;
+	top: 35px;
+	left: 1150px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fdfdfd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.travel {
+	position: absolute;
+	top: 35px;
+	left: 1300px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fdfdfd;
 }
 
-.App-link {
-  color: #61dafb;
+.contact {
+	position: absolute;
+	top: 35px;
+	left: 1450px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fdfdfd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signup-box {
+	position: relative;
+	top: 50px;
+	left: 117px;
+	width: 360px;
+	height: 580px;
+	background-color: #fefcf8;
+	border-radius: 3px;
+}
+
+.login-box {
+	position: relative;
+				top: 50px;
+	left: 117px;
+	width: 360px;
+	height: 350px;
+	border-radius: 3px;
+	background-color: #fefcf8;
+}
+
+.sending {
+	position: relative;
+	top: 50px;
+	left: 750px;
+	width: 360px;
+	height: 480px;
+	border-radius: 3px;
+	background-color: #fefcf8;
+	
+}
+
+h1 {
+	text-align: center;
+	padding-top: 15px;
+}
+h4 {
+	text-align: center;
+}
+form {
+	width: 300px;
+	margin-left: 20px;
+}
+form label {
+	display: flex;
+	margin-top: 20px;
+	font-size: 18px;
+}
+form input {
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border: 1px solid gray;
+	border-radius: 6px;
+	outline: none;
+}
+input[type="button"] {
+	width: 320px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: #49c1a2;
+	color: white;
+	font-size: 18px;
+}
+p {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 15px;
+}
+
+.p2 {
+	position: relative;
+	
+	left: 10px;
+	color: #49c1a2;
+}
+.p1 {
+	position: relative;
+	left: 10px;
+	color: #49c1a2;
+
 }
