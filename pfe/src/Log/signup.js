@@ -5,7 +5,7 @@ import background from '../image/background.jpg';
 
 function signup() {
 	return (
-<div id="top">
+ <div>
     <img className="logo" src="./logo.jpg" />
     <h1 className="home">Home</h1>
     <h1 className="about">About</h1>
@@ -37,5 +37,4 @@ function signup() {
       </p>
     </form>
   </div>
-
 export default signup;
