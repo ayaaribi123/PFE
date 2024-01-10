@@ -1,13 +1,13 @@
 import React from 'react';
 import '../App.css';
 
-function signin() {
-	return (
-<html>
+const Signin = () => {
+  return (
+    <html>
       <head>
         <link rel="stylesheet" href="styles.css" />
       </head>
-      <body style={{ backgroundImage: 'url(image/background.jpg' }} className="bg">
+      <body style={{ backgroundImage: 'url(image/background.jpg)' }} className="bg">
         <div id="top">
           <img className="logo" src="image/logo.jpg" alt="Logo" />
           <h1 className="home">Home</h1>
@@ -37,4 +37,5 @@ function signin() {
     </html>
   );
 };
-export default signin;
+
+export default Signin;
