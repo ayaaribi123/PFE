@@ -1,354 +1,167 @@
-.bg {
-   background-size: cover;
-   width: 10px;
-}
-.divtravel {
-  background-size: cover;  
-  margin-left: -10px;
-  margin-top: -10px;
-  width: 100%;
-  margin-bottom:10px;
-  height: 150px;
+import React from 'react';
 
-}
-
-
-.logo {
-      position: relative;
-        top: 10px;
-        left: 100px;
-}
-
-.home {
-    position: absolute;
-    top: 10px;
-    left: 1000px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fdfdfd;
-
- }
-
- .about {
-   position: absolute;
-   top: 10px;
-   left: 1150px;
-   font-family: Arial, Helvetica, sans-serif;
-   color: #fdfdfd;
- }
-
- .contact {
-   position: absolute;
-   top: 10px;
-   left: 1300px;
-   font-family: Arial, Helvetica, sans-serif;
-   color: #fdfdfd;
- }
-
- .signin {
-   position: absolute;
-   top: 10px;
-   left: 1450px;
-   font-family: Arial, Helvetica, sans-serif;
-   color: white;
- }
-
- .imgsignin {
-  height: 30px;
-  width: 30px;
- }
-
- .signup-box {
-   position: relative;
-   top: 50px;
-   left: 117px;
-   width: 360px;
-   height: 580px;
-   background-color: #fefcf8;
-   border-radius: 3px;
- }
-
- .login-box {
-   position: relative;
-      top: 50px;
-   left: 117px;
-   width: 360px;
-   height: 350px;
-   border-radius: 3px;
-   background-color: #fefcf8;
- }
-
-  .sending {
-   position: relative;
-   top: 50px;
-   left: 750px;
-   width: 360px;
-   height: 480px;
-   border-radius: 3px;
-   background-color: #fefcf8;
-   
-  }
-
- h1 {
-   text-align: center;
-   padding-top: small;
- }
- h4 {
-   text-align: center;
- }
- form {
-   width: 300px;
-   margin-left: 20px;
- }
- form label {
-   display: flex;
-   margin-top: 20px;
-   font-size: 18px;
- }
- form input {
-   width: 100%;
-   padding: 7px;
-   border: none;
-   border: 1px solid gray;
-   border-radius: 6px;
-   outline: none;
- }
- input[type="button"] {
-   width: 320px;
-   height: 35px;
-   margin-top: 20px;
-   border: none;
-   background-color: #49c1a2;
-   color: white;
-   font-size: 18px;
- }
- p {
-   text-align: center;
-   padding-top: 20px;
-   font-size: small;
- }
- 
- .p2 {
-   position: relative;
-   
-   left: 10px;
-   color: #49c1a2;
- }
- .p1 {
-   position: relative;
-   left: 10px;
-   color: #49c1a2;
-
- }
- 
- /*Home page*/
- .container1 {
-  position: absolute;
-  margin-left: 250px;
-  bottom: 200px;
-}
-
-.france-block {
-  opacity: 0.8;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:smaller;
-  font-weight: bold;
-  bottom:0px;
-  background-color:#ffffff;
-  color:black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.container2 {
-  position: absolute;
-  margin-left: 750px;
-  bottom: 200px;
-}
-
-.spain-block {
-  opacity: 0.8;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:smaller;
-  font-weight: bold;
-  bottom:0px;
-  background-color:#ffffff;
-  color:black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.container3 {
-  position: absolute;
-  margin-left: 1250px;
-  bottom: 200px;
-}
-
-.usa-block {
-  opacity: 0.8;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:smaller;
-  font-weight: bold;
-  bottom:0px;
-  background-color:#ffffff;
-  color:black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.container4 {
-  position: absolute;
-  margin-left: 250px;
-  bottom: -250px;
-}
-
-.turkey-block {
-  opacity: 0.8;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:smaller;
-  font-weight: bold;
-  bottom:0px;
-  background-color:#ffffff;
-  color:black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.container5 {
-  position: absolute;
-  margin-left: 750px;
-  bottom: -250px;
-}
-
-.italy-block {
-  opacity: 0.8;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:smaller;
-  font-weight: bold;
-  bottom:0px;
-  background-color:#ffffff;
-  color:black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.container6 {
-  position: absolute;
-  margin-left: 1250px;
-  bottom: -250px;
-}
-
-.mexico-block {
-  opacity: 0.8;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:smaller;
-  font-weight: bold;
-  bottom:0px;
-  background-color:#ffffff;
-  color:black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.container7 {
-  position: absolute;
-  margin-left: 250px;
-  bottom: -700px;
-}
-
-.uk-block {
-  opacity: 0.8;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:smaller;
-  font-weight: bold;
-  bottom:0px;
-  background-color:#ffffff;
-  color:black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.container8 {
-  position: absolute;
-  margin-left: 750px;
-  bottom: -700px;
-}
-
-.germany-block {
-  opacity: 0.8;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:smaller;
-  font-weight: bold;
-  bottom:0px;
-  background-color:#ffffff;
-  color:black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.container9 {
-  position: absolute;
-  margin-left: 1250px;
-  bottom: -700px;
-}
-
-.greece-block {
-  opacity: 0.8;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:smaller;
-  font-weight: bold;
-  bottom:0px;
-  background-color:#ffffff;
-  color:black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.footer {
-  background-color:lightgrey;
-}
-.footercontainer {
-  background-color: lightgrey;
-  position: absolute;
-  width: 1791px;
-  padding: 70px 30px 20px;
-  bottom: -850px;
-  margin-left: -8px;
-  margin-bottom:-30px;
-}
-
-.icons {
- display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.icons a {
-padding: 10px;
-background-color: white;
-margin: 10px;
-border-radius: 50%;
-margin-bottom: -10px;
-margin-top: -30px;
-}
-
-.icons a i{
-  font-size: 2em;
-  color: black;
-  opacity: 0.9;
-}
-
-.footerbottom {
-  position: absolute;
-  text-align: center;
-  top: 1740px;
-  margin-bottom: 10px;
-  margin-left: 45%;
-}
+const styles = {
+  bg: {
+    backgroundSize: 'cover',
+    width: '10px',
+  },
+  divtravel: {
+    backgroundSize: 'cover',
+    marginLeft: '-10px',
+    marginTop: '-10px',
+    width: '100%',
+    marginBottom: '10px',
+    height: '150px',
+  },
+  logo: {
+    position: 'relative',
+    top: '10px',
+    left: '100px',
+  },
+  home: {
+    position: 'absolute',
+    top: '10px',
+    left: '1000px',
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    color: '#fdfdfd',
+  },
+  about: {
+    position: 'absolute',
+    top: '10px',
+    left: '1150px',
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    color: '#fdfdfd',
+  },
+  contact: {
+    position: 'absolute',
+    top: '10px',
+    left: '1300px',
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    color: '#fdfdfd',
+  },
+  signin: {
+    position: 'absolute',
+    top: '10px',
+    left: '1450px',
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    color: 'white',
+  },
+  imgsignin: {
+    height: '30px',
+    width: '30px',
+  },
+  signupBox: {
+    position: 'relative',
+    top: '50px',
+    left: '117px',
+    width: '360px',
+    height: '580px',
+    backgroundColor: '#fefcf8',
+    borderRadius: '3px',
+  },
+  loginBox: {
+    position: 'relative',
+    top: '50px',
+    left: '117px',
+    width: '360px',
+    height: '350px',
+    borderRadius: '3px',
+    backgroundColor: '#fefcf8',
+  },
+  sending: {
+    position: 'relative',
+    top: '50px',
+    left: '750px',
+    width: '360px',
+    height: '480px',
+    borderRadius: '3px',
+    backgroundColor: '#fefcf8',
+  },
+  h1: {
+    textAlign: 'center',
+    paddingTop: 'small',
+  },
+  h4: {
+    textAlign: 'center',
+  },
+  form: {
+    width: '300px',
+    marginLeft: '20px',
+  },
+  formLabel: {
+    display: 'flex',
+    marginTop: '20px',
+    fontSize: '18px',
+  },
+  formInput: {
+    width: '100%',
+    padding: '7px',
+    border: 'none',
+    borderRadius: '6px',
+    outline: 'none',
+  },
+  submitButton: {
+    width: '320px',
+    height: '35px',
+    marginTop: '20px',
+    border: 'none',
+    backgroundColor: '#49c1a2',
+    color: 'white',
+    fontSize: '18px',
+  },
+  p: {
+    textAlign: 'center',
+    paddingTop: '20px',
+    fontSize: 'small',
+  },
+  p2: {
+    position: 'relative',
+    left: '10px',
+    color: '#49c1a2',
+  },
+  p1: {
+    position: 'relative',
+    left: '10px',
+    color: '#49c1a2',
+  },
+  container1: {
+    position: 'absolute',
+    marginLeft: '250px',
+    bottom: '200px',
+  },
+  franceBlock: {
+    opacity: '0.8',
+    position: 'absolute',
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    fontSize: 'smaller',
+    fontWeight: 'bold',
+    bottom: '0px',
+    backgroundColor: '#ffffff',
+    color: 'black',
+    paddingLeft: '20px',
+    paddingRight: '20px',
+  },
+  container2: {
+    position: 'absolute',
+    marginLeft: '750px',
+    bottom: '200px',
+  },
+  spainBlock: {
+    opacity: '0.8',
+    position: 'absolute',
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    fontSize: 'smaller',
+    fontWeight: 'bold',
+    bottom: '0px',
+    backgroundColor: '#ffffff',
+    color: 'black',
+    paddingLeft: '20px',
+    paddingRight: '20px',
+  },
+  // Add similar objects for other containers and blocks...
+  footer: {
+    backgroundColor: 'lightgrey',
+  },
+  footerContainer: {
+    backgroundColor: 'lightgrey',
+    position: 'absolute',
