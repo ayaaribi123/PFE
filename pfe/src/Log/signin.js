@@ -1,7 +1,5 @@
 import React from 'react';
 import '../App.css';
-import logo from '../image/logo.jpg';
-import background from '../image/background.jpg';
 
 function signin() {
 	return (
