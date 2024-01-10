@@ -1,164 +1,164 @@
   bg: {
-    backgroundSize: 'cover',
-    width: '10px',
+    backgroundSize: 'cover'
+    width: '10px'
   },
   divtravel: {
-    backgroundSize: 'cover',
-    marginLeft: '-10px',
-    marginTop: '-10px',
+    backgroundSize: 'cover'
+    marginLeft: '-10px'
+    marginTop: '-10px'
     width: '100%',
-    marginBottom: '10px',
-    height: '150px',
-  },
+    marginBottom: '10px'
+    height: '150px'
+  }
   logo: {
-    position: 'relative',
-    top: '10px',
-    left: '100px',
+    position: 'relative'
+    top: '10px'
+    left: '100px'
   },
   home: {
-    position: 'absolute',
-    top: '10px',
-    left: '1000px',
-    fontFamily: 'Arial, Helvetica, sans-serif',
-    color: '#fdfdfd',
+    position: 'absolute'
+    top: '10px'
+    left: '1000px'
+    fontFamily: 'Arial, Helvetica, sans-serif'
+    color: '#fdfdfd'
   },
   about: {
-    position: 'absolute',
-    top: '10px',
-    left: '1150px',
-    fontFamily: 'Arial, Helvetica, sans-serif',
-    color: '#fdfdfd',
+    position: 'absolute'
+    top: '10px'
+    left: '1150px'
+    fontFamily: 'Arial, Helvetica, sans-serif'
+    color: '#fdfdfd'
   },
   contact: {
-    position: 'absolute',
-    top: '10px',
-    left: '1300px',
-    fontFamily: 'Arial, Helvetica, sans-serif',
-    color: '#fdfdfd',
+    position: 'absolute'
+    top: '10px'
+    left: '1300px'
+    fontFamily: 'Arial, Helvetica, sans-serif'
+    color: '#fdfdfd'
   },
   signin: {
-    position: 'absolute',
-    top: '10px',
-    left: '1450px',
-    fontFamily: 'Arial, Helvetica, sans-serif',
-    color: 'white',
-  },
+    position: 'absolute'
+    top: '10px'
+    left: '1450px'
+    fontFamily: 'Arial, Helvetica, sans-serif'
+    color: 'white'
+  }
   imgsignin: {
-    height: '30px',
-    width: '30px',
+    height: '30px'
+    width: '30px'
   },
   signupBox: {
-    position: 'relative',
-    top: '50px',
-    left: '117px',
-    width: '360px',
-    height: '580px',
-    backgroundColor: '#fefcf8',
-    borderRadius: '3px',
+    position: 'relative'
+    top: '50px'
+    left: '117px
+    width: '360px'
+    height: '580px'
+    backgroundColor: '#fefcf8'
+    borderRadius: '3px'
   },
   loginBox: {
-    position: 'relative',
-    top: '50px',
-    left: '117px',
-    width: '360px',
-    height: '350px',
-    borderRadius: '3px',
-    backgroundColor: '#fefcf8',
+    position: 'relative'
+    top: '50px'
+    left: '117px'
+    width: '360px'
+    height: '350px'
+    borderRadius: '3px'
+    backgroundColor: '#fefcf8'
   },
   sending: {
-    position: 'relative',
-    top: '50px',
-    left: '750px',
-    width: '360px',
-    height: '480px',
-    borderRadius: '3px',
-    backgroundColor: '#fefcf8',
+    position: 'relative'
+    top: '50px'
+    left: '750px'
+    width: '360px'
+    height: '480px'
+    borderRadius: '3px'
+    backgroundColor: '#fefcf8'
   },
   h1: {
-    textAlign: 'center',
-    paddingTop: 'small',
+    textAlign: 'center'
+    paddingTop: 'small'
   },
   h4: {
-    textAlign: 'center',
+    textAlign: 'center'
   },
   form: {
-    width: '300px',
-    marginLeft: '20px',
+    width: '300px'
+    marginLeft: '20px'
   },
   formLabel: {
-    display: 'flex',
-    marginTop: '20px',
-    fontSize: '18px',
+    display: 'flex'
+    marginTop: '20px'
+    fontSize: '18px'
   },
   formInput: {
-    width: '100%',
-    padding: '7px',
-    border: 'none',
-    borderRadius: '6px',
-    outline: 'none',
+    width: '100%'
+    padding: '7px'
+    border: 'none'
+    borderRadius: '6px'
+    outline: 'none'
   },
   submitButton: {
-    width: '320px',
-    height: '35px',
-    marginTop: '20px',
-    border: 'none',
-    backgroundColor: '#49c1a2',
-    color: 'white',
-    fontSize: '18px',
+    width: '320px'
+    height: '35px'
+    marginTop: '20px'
+    border: 'none'
+    backgroundColor: '#49c1a2'
+    color: 'white'
+    fontSize: '18px'
   },
   p: {
-    textAlign: 'center',
-    paddingTop: '20px',
-    fontSize: 'small',
-  },
+    textAlign: 'center'
+    paddingTop: '20px'
+    fontSize: 'small'
+  }
   p2: {
-    position: 'relative',
-    left: '10px',
-    color: '#49c1a2',
+    position: 'relative'
+    left: '10px'
+    color: '#49c1a2'
   },
   p1: {
-    position: 'relative',
-    left: '10px',
-    color: '#49c1a2',
+    position: 'relative'
+    left: '10px'
+    color: '#49c1a2'
   },
   container1: {
-    position: 'absolute',
-    marginLeft: '250px',
-    bottom: '200px',
+    position: 'absolute'
+    marginLeft: '250px'
+    bottom: '200px'
   },
   franceBlock: {
-    opacity: '0.8',
-    position: 'absolute',
-    fontFamily: 'Arial, Helvetica, sans-serif',
-    fontSize: 'smaller',
-    fontWeight: 'bold',
-    bottom: '0px',
-    backgroundColor: '#ffffff',
-    color: 'black',
-    paddingLeft: '20px',
-    paddingRight: '20px',
+    opacity: '0.8'
+    position: 'absolute'
+    fontFamily: 'Arial, Helvetica, sans-serif'
+    fontSize: 'smaller'
+    fontWeight: 'bold'
+    bottom: '0px'
+    backgroundColor: '#ffffff'
+    color: 'black'
+    paddingLeft: '20px'
+    paddingRight: '20px'
   },
   container2: {
-    position: 'absolute',
-    marginLeft: '750px',
-    bottom: '200px',
+    position: 'absolute'
+    marginLeft: '750px'
+    bottom: '200px'
   },
   spainBlock: {
-    opacity: '0.8',
-    position: 'absolute',
-    fontFamily: 'Arial, Helvetica, sans-serif',
-    fontSize: 'smaller',
-    fontWeight: 'bold',
-    bottom: '0px',
-    backgroundColor: '#ffffff',
-    color: 'black',
-    paddingLeft: '20px',
-    paddingRight: '20px',
+    opacity: '0.8'
+    position: 'absolute'
+    fontFamily: 'Arial, Helvetica, sans-serif'
+    fontSize: 'smaller'
+    fontWeight: 'bold'
+    bottom: '0px'
+    backgroundColor: '#ffffff'
+    color: 'black'
+    paddingLeft: '20px'
+    paddingRight: '20px'
   },
   // Add similar objects for other containers and blocks...
   footer: {
-    backgroundColor: 'lightgrey',
+    backgroundColor: 'lightgrey'
   },
   footerContainer: {
-    backgroundColor: 'lightgrey',
-    position: 'absolute',
+    backgroundColor: 'lightgrey'
+    position: 'absolute'
