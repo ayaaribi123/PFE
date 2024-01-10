@@ -1,23 +1,9 @@
-import React , {useState } from "react";
 import React from 'react';
 import '../App.css';
 import logo from '../image/logo.jpg';
 import background from '../image/background.jpg';
 
 function signup() {
-	const [credentials, setcredentials] = useState=({
-		email: undefined,
-		password: undefined
-	});
-
-	const handelchange = e =>{
-		setcredit(prev => ({ ...prev, [e.traget.id]: e.traget.value}));
-	};
-
-	const handleclick = e =>{
-		e.preventdefaut()
-	}
-
 	return (
 			<div className="signup">
 				<div className='signup'>
@@ -34,17 +20,17 @@ function signup() {
         <div class="signup-box">
             <h1>Sign up</h1>
             <h4>It's free !</h4>
-            <form onSubmit={handleclick}>
+            <form>
               <label>First Name</label>
-              <input type="text" placeholder="" onchange={handelchange}/>
+              <input type="text"/>
               <label>Last Name</label>
-              <input type="text" placeholder="" onchange={handelchange}/>
+              <input type="text"/>
               <label>Email</label>
-              <input type="email" placeholder="" onchange={handelchange}/>
+              <input type="email"/>
               <label>Password</label>
-              <input type="password" placeholder="" onchange={handelchange}/>
+              <input type="password"/>
               <label>Confirm Password</label>
-              <input type="password" placeholder="" onchange={handelchange}/>
+              <input type="password"/>
               <input type="button" value="Submit" />
               <p class="p1">Already have an account ?<a href="signin.html"> Click Here</a></p>
             </form>

@@ -1,22 +1,25 @@
+// src/App.js
 import React from 'react';
 import './App.css';
-import Header from '../src/Header/Header.js';
-import Login from '../src/Login/Login.js';
-
+import Header from './Header/Header';
+import Login from './Log/Login';
+import Logout from './Log/signup';
 
 function App() {
-	return (
-
-			<React.Fragment>
-					<div className='App'>
-					<Header/>
-			</div>
-			<div className='App-body'>
-					<Login/>
-			</div>
-			</React.Fragment>
-
-	);
+  return (
+    <React.Fragment>
+      <div className='App'>
+        <Header />
+      </div>
+      <div className='App-body'>
+        <Login />
+      </div>
+      <div className='App-body2'>
+        <Logout />
+      </div>
+    </React.Fragment>
+  );
 }
 
 export default App;
+
