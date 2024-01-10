@@ -9,7 +9,8 @@ const Signup = () => {
       <head>
         <link rel="stylesheet" href="styles.css" />
       </head>
-      <body style={{ backgroundImage: `url(${background})` }} className="bg">
+      <body>
+    <div style={{ backgroundImage: `url(${background})` }} className="bg"></div>
         <div>
           <img className="logo" src={logo} alt="Logo" />
           <h1 className="home">Home</h1>
