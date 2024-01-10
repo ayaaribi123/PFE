@@ -29,6 +29,6 @@ function signin() {
       </div>
     );
   }
-});
+);
 
 export default signin;
