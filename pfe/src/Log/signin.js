@@ -7,9 +7,9 @@ function signin() {
       <head>
         <link rel="stylesheet" href="styles.css" />
       </head>
-      <body style={{ backgroundImage: 'url(../image/background.jpg' }} className="bg">
+      <body style={{ backgroundImage: 'url(image/background.jpg' }} className="bg">
         <div id="top">
-          <img className="logo" src="../image/logo.jpg" alt="Logo" />
+          <img className="logo" src="image/logo.jpg" alt="Logo" />
           <h1 className="home">Home</h1>
           <h1 className="about">About</h1>
           <h1 className="contact">Contact</h1>
