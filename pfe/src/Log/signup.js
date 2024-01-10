@@ -3,15 +3,15 @@ import '../App.css';
 import logo from '../image/logo.jpg';
 import background from '../image/background.jpg';
 
-function signup() {
-	return (
+const Signup = () => {
+  return (
     <html>
       <head>
         <link rel="stylesheet" href="styles.css" />
       </head>
-      <body style={{ backgroundImage: 'url(background.jpg)' }} className="bg">
+      <body style={{ backgroundImage: `url(${background})` }} className="bg">
         <div>
-          <img className="logo" src="./logo.jpg" alt="Logo" />
+          <img className="logo" src={logo} alt="Logo" />
           <h1 className="home">Home</h1>
           <h1 className="about">About</h1>
           <h1 className="contact">Contact</h1>
@@ -38,7 +38,7 @@ function signup() {
             <input type="password" placeholder="" />
             <input type="button" value="Submit" />
             <p className="p1">
-              Already have an account ?<a href="signin.html"> Click Here</a>
+              Already have an account? <a href="signin.html">Click Here</a>
             </p>
           </form>
         </div>
@@ -46,4 +46,5 @@ function signup() {
     </html>
   );
 };
-export default signup;
+
+export default Signup;
