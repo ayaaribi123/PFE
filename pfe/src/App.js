@@ -4,7 +4,7 @@ import './App.css';
 import Header from './Header/Header';
 import signin from './Log/signin';
 import signup from './Log/signup';
-import Footer from './log/footer';
+import Footer from './Log/footer';
 
 function App() {
   return (
