@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footerbottom">
-        <p>Copyright &copy;2024 Sky High</p>
+        <p>Copyright &copy; Sky High</p>
       </div>
     </footer>
   );
