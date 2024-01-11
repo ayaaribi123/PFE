@@ -33,9 +33,3 @@ app.use('/admin', require('./admin'));
 app.use((req, res) => {
 	res.status(404).send(`Sorry can't find that!`);
 });
-
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () => {
-	console.log(`Server is running on port ${PORT}`);
-});
