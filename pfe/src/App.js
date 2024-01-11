@@ -12,10 +12,10 @@ function App() {
         <Header />
       </div>
       <div className='App-body'>
-        <Login />
+        <signin />
       </div>
       <div className='App-body2'>
-        <Logout />
+        <signup />
       </div>
     </React.Fragment>
   );
