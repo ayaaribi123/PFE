@@ -2,27 +2,25 @@
 import React from 'react';
 import './App.css';
 import Header from './Header/Header';
-import signin from './Log/signin';
-import signup from './Log/signup';
-import Footer from './Log/footer';
+import Signin from './Log/Signin'; 
+import Signup from './Log/Signup'; 
+import Footer from './Log/Footer';
 
 function App() {
   return (
-    <React.Fragment>
-      <div className='App'>
-        <Header />
-    <div className='App-body3'>
-        <Footer />
-      </div>
+    <div className='App'>
+      <Header />
       <div className='App-body'>
-        <signin />
+        <Signin />
       </div>
       <div className='App-body2'>
-        <signup />
+        <Signup />
       </div>
-    </React.Fragment>
+      <div className='App-body3'>
+        <Footer />
+      </div>
+    </div>
   );
 }
 
 export default App;
-
