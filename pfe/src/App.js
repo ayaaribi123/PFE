@@ -11,7 +11,7 @@ function App() {
     <React.Fragment>
       <div className='App'>
         <Header />
-    <div className='App'>
+    <div className='App-body3'>
         <Footer />
       </div>
       <div className='App-body'>
