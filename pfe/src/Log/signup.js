@@ -3,7 +3,7 @@ import '../App.css';
 import logo from '../image/logo.jpg';
 import background from '../image/background.jpg';
 
-const Signup = () => {
+export default const Signup = () => {
   return (
     <html>
       <head>
@@ -36,4 +36,3 @@ const Signup = () => {
   );
 };
 
-export default Signup;
