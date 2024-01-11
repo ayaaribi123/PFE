@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-const Signin = () => {
+export defaut const Signin = () => {
   return (
     <html>
       <head>
@@ -37,5 +37,3 @@ const Signin = () => {
     </html>
   );
 };
-
-export default Signin;
