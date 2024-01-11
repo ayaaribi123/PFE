@@ -5,11 +5,8 @@ const app = express();
 
 dotenv.config();
 
-// setting 'ejs' as template engine
-app.set('view engine', 'ejs');
-
-// set the path our 'views' are going to be coming from
-app.set('views', __dirname + '/views');  // Corrected path for views
+// set the path our 'public' are going to be coming from
+app.set('public', __dirname + '/public');
 
 // body parser to get information from 'form' element
 app.use(express.urlencoded({ extended: false }));
@@ -17,9 +14,6 @@ app.use(express.urlencoded({ extended: false }));
 // GET /styles.css, images, and js files
 app.use('/src', express.static('src'));
 app.use(express.static('src'));
-
-// To use multer for uploading files to the database (images)
-app.use('/uploads', express.static('uploads'));
 
 // Connect to MongoDB
 mongoose
