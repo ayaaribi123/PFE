@@ -2,9 +2,9 @@
 import React from 'react';
 import './App.css';
 import Header from './Header/Header';
-import signin from './Log/Signin'; 
-import signup from './Log/Signup'; 
-import footer from './Log/Footer';
+import signin from './Log/signin'; 
+import signup from './Log/signup'; 
+import footer from './Log/footer';
 
 function App() {
   return (
